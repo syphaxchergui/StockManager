@@ -1,0 +1,14 @@
+.button {
+    -fx-background-color: #00AEDB ;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+
+
+}
+
+
+.button:hover {
+    -fx-background-color: #252b45;
+}

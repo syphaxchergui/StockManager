@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Azonix';
+    src: url('Fonts/Raleway-Medium.otf');
+}
+
+.button {
+    -fx-background-color:  #00AEDB;
+        -fx-background-radius: 10;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: 'Azonix';
+    -fx-font-size: 15px;
+  
+
+}
+
+.label {
+	-fx-font-family: 'Azonix';
+    -fx-text-fill: White;
+
+}
+
+.button:pressed {
+    -fx-background-color: #6C63FF;
+
+
+}
+
+.button:hover {
+        -fx-background-color:  #252b45;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.5 , 0 , 0 );
+}
+
+
+.password-field {
+    -fx-background-color: #eeeeee;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-text-fill: Black;
+    -fx-font-family: 'Azonix';
+    -fx-font-size: 17px;
+}
+
+.password-field:hover {
+    -fx-background-color: #252b45;
+    -fx-text-fill: white;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+.password-field:focused {
+    -fx-background-color: #252b45;
+    -fx-text-fill: white;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+
+.password-field {
+    -fx-background-color: #eeeeee;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-text-fill: Black;
+    -fx-font-family: 'Azonix';
+    -fx-font-size: 17px;
+}
+
+.password-field:hover {
+    -fx-background-color: #252b45;
+    -fx-text-fill: white;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+.password-field:focused {
+    -fx-background-color: #252b45;
+    -fx-text-fill: white;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+
+
+
+.text-field {
+    -fx-background-color: #eeeeee;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-text-fill: Black;
+    -fx-font-family: 'Azonix';
+    -fx-font-size: 17px;
+}
+
+.text-field:hover {
+    -fx-background-color: #252b45;
+    -fx-text-fill: white;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+
+.text-field:focused {
+    -fx-background-color: #252b45;
+    -fx-text-fill: white;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 2, 0.5 , 0 , 0 );
+}
+
+.text-area {
+    -fx-background-color: #eeeeee;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-text-fill: Black;
+    -fx-font-family: 'Azonix';
+    -fx-font-size: 17px;
+}
+
+.text-area:hover {
+    -fx-background-color: #252b45;
+    -fx-text-fill: black;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+
+.text-area:focused {
+    -fx-background-color: #252b45;
+    -fx-text-fill: white;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 2, 0.5 , 0 , 0 );
+}
+
+
+.combo-box {
+    -fx-background-color: #eeeeee;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-text-fill: grey;
+    -fx-font-family: 'Azonix';
+    -fx-font-size: 13px;
+}
+.combo-box:hover {
+    -fx-background-color: #eeeeee;
+    -fx-text-fill: white;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+
+.table-view{
+    -fx-background-color: transparent;
+}
+
+.table-view:hover{
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+
+.table-view:focused{
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 2, 0.5 , 0 , 0 );
+}
+
+.table-view .column-header-background{
+    -fx-background-color: black;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+}
+
+.table-row-cell{
+    -fx-background-color: #eeeeee , #eeeeee;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 2, 0.5 , 0 , 0 );
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #a9a9a9;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+

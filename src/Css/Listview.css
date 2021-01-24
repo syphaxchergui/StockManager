@@ -1,0 +1,46 @@
+.table-row-cell:selected:focused {
+	-fx-background-color: #00AEDB;
+}
+
+.table-row-cell {
+	-fx-background-insets: 0;
+}
+
+.table-row-cell {
+    -fx-background-color: #eeeeee;
+}
+.table-row-cell {
+	-fx-cell-size: 30px;
+}
+
+.table-view {
+	-fx-background-insets: 0;
+	-fx-padding: 0;
+	-fx-vertical-gap: 5;
+	-fx-cell-vertical-margin : 5;
+	-fx-background-radius: 10;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+
+}
+.table-view .column-header-background{
+	-fx-background-color: #252B45;
+	-fx-background-radius: 5;
+}
+
+
+.table-view .column-header-background .label{
+	-fx-background-color: #252B45;
+	-fx-text-fill: white;
+}
+
+.table-view .column-header {
+	-fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+	-fx-text-fill: #252B45;
+	-fx-text-align: center;
+}
+
+
+
